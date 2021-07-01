@@ -1,0 +1,44 @@
+body {
+    background-color:rgb(34, 39, 46)
+}
+h1 {
+    position: absolute;
+    color: rgb(104, 104, 104);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    font-size: 150px;
+    right: 790px;
+    top: 150px;
+}
+h2 {
+    position: absolute;
+    color: rgb(49, 49, 49);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 650;
+    font-size: 100px;
+    right: 450px;
+    top: 350px;
+}
+.buttonlol {
+    position: absolute;
+    top: 600px;
+    left: 883px;
+    height: 50px;
+    width: 250px;
+    background-color:rgb(91, 104, 119);
+    color: white;
+    border: none;
+    transition: all 0.3s;
+}
+.buttonlol:hover {
+    position: absolute;
+    top: 600px;
+    left: 883px;
+    height: 50px;
+    width: 250px;
+    background-color:rgb(99, 113, 131);
+    color: white;
+    border: none;
+    transition: all 0.3s;
+    cursor: pointer;
+}

@@ -1,0 +1,67 @@
+body {
+    background-image: url(shopbg.jpg);
+    background-size: cover;
+}
+#s24h {
+    position: absolute;
+    display: block;
+    width: 275px;
+    height: 350px;
+     border-width: 11px;
+    border-radius: 12px;
+    padding-right: 23px;
+    padding-left: 23px;
+    background-color: rgb(105, 105, 105);
+}
+#s24h .title {
+    text-align: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#s24h .description {
+color: rgb(49, 49, 49);
+font-weight: 800;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#s24h .buynow {
+    position: absolute;
+    border-width: 1px;
+    border-radius: 30px;
+    padding-right: 23px;
+    padding-left: 23px;
+    background-color: rgb(204, 204, 204);
+    color: white;
+    border: none;
+    height: 45px;
+    width: 225px;
+    left: 45px;
+    top: 250px;
+    font-size: 15px;
+    font-weight: bold;
+    opacity: 1;
+    transition: 0.3s;
+}
+#s24h .buynow:hover {
+    position: absolute;
+    border-width: 1px;
+    border-radius: 30px;
+    padding-right: 23px;
+    padding-left: 23px;
+    background-color: rgb(224, 224, 224);
+    color: white;
+    border: none;
+    height: 45px;
+    width: 225px;
+    left: 45px;
+    top: 250px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.5s;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    opacity: 1;
+    transition: 0.3s;
+}
